@@ -1,26 +1,38 @@
 {
-  "name": "node_basic",
+  "name": "server-js",
   "type": "module",
-  "version": "1.0.0",
-  "description": "A simple node server for learning purposes",
+  "version": "0.1.0",
+  "description": "Template for a simple express backend",
   "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon src/index.js",
+    "dev"  : "nodemon src/index.js",
     "start": "node src/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/17lxve/server-js.git"
+  },
   "keywords": [
+    "server",
+    "node",
     "express",
-    "udemy",
-    "node"
+    "mongodb"
   ],
   "author": "Timmy",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/17lxve/server-js/issues"
+  },
+  "homepage": "https://github.com/17lxve/server-js#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "express-list-endpoints": "^6.0.0",
     "helmet": "^7.1.0",
-    "morgan": "^1.10.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
     "nodemon": "^3.0.2"
   }
 }
